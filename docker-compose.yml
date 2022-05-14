@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  db:
+    container_name: db
+    restart: always
+    image: postgres:14
+    ports:
+      - '${DB_PORT}:5432'
+    environment:
+      - 'POSTGRES_USER=${DB_USER}'
+      - 'POSTGRES_PASSWORD=${DB_PASSWORD}'
+      - 'POSTGRES_DB=${DB_NAME}'
+    networks:
+      - nestjs-blog-api-example
+
+networks:
+  nestjs-blog-api-example:
+    driver: bridge
