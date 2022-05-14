@@ -8,7 +8,7 @@
     "test": "nx test",
     "db:rm": "docker compose rm db -s -f -v",
     "db:up": "docker compose up db -d",
-    "db:restart": "yarn db:dev:rm && yarn db:dev:up && sleep 5"
+    "db:restart": "yarn db:rm && yarn db:up && sleep 5"
   },
   "private": true,
   "dependencies": {
