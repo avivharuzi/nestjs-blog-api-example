@@ -17,7 +17,7 @@ export class PostEntity {
   @Column()
   description: string;
 
-  @Column()
+  @Column('text')
   content: string;
 
   @Column('simple-array')
