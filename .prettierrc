@@ -1,3 +1,19 @@
 {
-  "singleQuote": true
+  "singleQuote": true,
+  "importOrder": [
+    "^node:(.*)$",
+    "^@nestjs/(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@nestjs-blog-api-example/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true,
+  "importOrderParserPlugins": [
+    "typescript",
+    "jsx",
+    "classProperties",
+    "decorators-legacy"
+  ]
 }

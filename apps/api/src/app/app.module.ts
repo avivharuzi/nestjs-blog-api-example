@@ -1,5 +1,5 @@
-import { ConfigModule, ConfigService } from '@nestjs/config';
 import { Module } from '@nestjs/common';
+import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { EnvironmentVariables } from './environment-variables';
@@ -26,7 +26,5 @@ import { PostsModule } from './posts/posts.module';
     }),
     PostsModule,
   ],
-  controllers: [],
-  providers: [],
 })
 export class AppModule {}
