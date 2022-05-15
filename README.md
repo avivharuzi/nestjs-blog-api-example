@@ -15,7 +15,6 @@ Blog API example using NestJS framework.
 - [Node.js](https://nodejs.org) (>= 16 required)
 - npm package manager (>= 8 required)
 - [yarn](https://yarnpkg.com)
-- [ffmpeg](https://ffmpeg.org)
 - [Docker](https://www.docker.com)
 
 ## Configure Environment File
