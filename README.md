@@ -1,5 +1,7 @@
 # nestjs-blog-api-example
 
+![NestJS Logo](./.github/images/nestjs-logo.svg)
+
 Blog API example using NestJS framework.
 
 ## Table of Contents
