@@ -6,9 +6,9 @@ Blog API example using NestJS framework.
 
 ## Table of Contents
 
-1. [Prerequisites](#prerequisites)
-1. [Configure Environment File](#configure-environment-file)
-1. [Commands](#commands)
+- [Prerequisites](#prerequisites)
+- [Configure Environment File](#configure-environment-file)
+- [Commands](#commands)
 
 ## Prerequisites
 
